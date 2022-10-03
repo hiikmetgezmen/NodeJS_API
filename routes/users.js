@@ -51,4 +51,10 @@ router.put("/:id",async (req,res)=>{
     res.send(update);
 });
 
+router.delete("/:id",async (req,res)=>{
+   const deletee = await User.findByIdAndRemove(req.params.id);
+   if(!deletee) res.send("fghj");
+   res.send(deletee);
+});
+
 module.exports = router;
