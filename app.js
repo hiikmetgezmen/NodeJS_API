@@ -26,7 +26,6 @@ const logger = winston.createLogger({
       ]
   });
 
-
 mongoose.connect(process.env.URL,{useNewUrlParser:true})
     .then(()=>{
         logger.log("info","cnnted");
