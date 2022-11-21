@@ -1,1 +1,2 @@
 {"level":"error"}
+{"code":"ENOTFOUND","hostname":"_mongodb._tcp.cluster0.u9tfc9k.mongodb.net","level":"error","syscall":"querySrv"}

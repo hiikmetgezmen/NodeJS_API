@@ -31,7 +31,7 @@ mongoose.connect(process.env.URL,{useNewUrlParser:true})
         logger.log("info","cnnted");
     })
     .catch((error)=>{
-        logger.log("error",error);
+        logger.log("error",error);x
     });
 
 
@@ -39,5 +39,3 @@ mongoose.connect(process.env.URL,{useNewUrlParser:true})
 app.listen(3000,()=>{
     console.log("Server");
 });
-
-
